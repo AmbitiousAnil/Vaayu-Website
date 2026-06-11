@@ -23,6 +23,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
 
 # local env files
 .env*.local
@@ -34,3 +35,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# local browser/profile artifacts
+.cloak-profiles/
+.playwright-mcp/
+.skill-staging/
+
+# design audit artifacts
+design-audit-evidence/
+/vaayu-local-*.png
+/vaayu-source-*.png
+/vaayu-vimeo-no-background.png
